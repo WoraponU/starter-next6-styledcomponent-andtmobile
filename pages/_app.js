@@ -1,7 +1,8 @@
 import App, { Container } from 'next/app'
 import React from 'react'
 
-import '../styles/app.less'
+import '../styles/antdMobile.less'
+import '../styles/app.scss'
 
 export default class MyApp extends App {
   static async getInitialProps({ Component, router, ctx }) {

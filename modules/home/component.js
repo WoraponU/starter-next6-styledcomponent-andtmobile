@@ -1,9 +1,17 @@
 import React from 'react'
 import { Button, WhiteSpace, WingBlank } from 'antd-mobile'
+import styled from 'styled-components'
+
+const Title = styled.h1`
+  font-size: 1.5em;
+  text-align: center;
+  color: palevioletred;
+`
 
 const Component = () => {
   return (
     <WingBlank>
+      <Title>H1</Title>
       <Button>default</Button>
       <WhiteSpace />
       <Button disabled>default disabled</Button>
