@@ -20,7 +20,9 @@
   },
   "dependencies": {
     "@zeit/next-css": "^0.2.0",
+    "@zeit/next-less": "^0.3.0",
     "antd-mobile": "^2.2.1",
+    "less": "^3.7.1",
     "next": "^6.1.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1"

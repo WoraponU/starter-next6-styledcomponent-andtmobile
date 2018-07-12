@@ -1,12 +1,11 @@
 import React, { Component, Fragment } from 'react'
-import { Button } from 'antd-mobile'
-import 'antd-mobile/dist/antd-mobile.css'
+import Test from '../modules/components/Test'
 
 class Home extends Component {
   render() {
     return (
       <Fragment>
-        test<Button />
+        <Test />
       </Fragment>
     )
   }
