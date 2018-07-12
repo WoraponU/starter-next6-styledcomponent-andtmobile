@@ -1,4 +1,7 @@
 {
   "presets": ["next/babel"],
-  "plugins": [["import", { "libraryName": "antd-mobile" }]]
+  "plugins": [
+    ["styled-components", { "ssr": true, "displayName": true, "preprocess": false }],
+    ["import", { "libraryName": "antd-mobile" }]
+  ]
 }

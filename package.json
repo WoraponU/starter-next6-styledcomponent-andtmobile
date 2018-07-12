@@ -21,15 +21,19 @@
   "dependencies": {
     "@zeit/next-css": "^0.2.0",
     "@zeit/next-less": "^0.3.0",
+    "@zeit/next-sass": "^0.2.0",
     "antd-mobile": "^2.2.1",
     "less": "^3.7.1",
     "next": "^6.1.1",
+    "node-sass": "^4.9.2",
     "react": "^16.4.1",
-    "react-dom": "^16.4.1"
+    "react-dom": "^16.4.1",
+    "styled-components": "^3.3.3"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
     "babel-plugin-import": "^1.8.0",
+    "babel-plugin-styled-components": "^1.5.1",
     "eslint": "^4.19.1",
     "eslint-config-react-app": "^2.1.0",
     "eslint-plugin-flowtype": "^2.50.0",
