@@ -1,14 +1,14 @@
 import React, { Component, Fragment } from 'react'
-import Test from '../modules/components/Test'
+import { Home } from '../modules'
 
-class Home extends Component {
+class HomePage extends Component {
   render() {
     return (
       <Fragment>
-        <Test />
+        <Home />
       </Fragment>
     )
   }
 }
 
-export default Home
+export default HomePage
