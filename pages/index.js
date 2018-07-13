@@ -5,6 +5,7 @@ class HomePage extends Component {
   render() {
     return (
       <Fragment>
+        <span>test</span>
         <Home />
       </Fragment>
     )
